@@ -1,8 +1,8 @@
 version = 0.1
 [default.deploy.parameters]
-stack_name = "HelloWorldLambdaFunction"
+stack_name = "PrimeiraFuncaoLambda"
 resolve_s3 = true
-s3_prefix = "HelloWorldLambdaFunction"
+s3_prefix = "PrimeiraFuncaoLambda"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
